@@ -1,0 +1,32 @@
+{
+  "name": "jmjl161100/laravel-relation-updater",
+  "description": "Elegant and declarative model relation updater for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jmjl161100\\RelationUpdater\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jmjl161100"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jmjl161100\\RelationUpdater\\RelationUpdaterServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "laravel/pint": "^1.22"
+  }
+}
